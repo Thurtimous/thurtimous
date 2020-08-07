@@ -2,5 +2,5 @@
 
 Backend?  
 Frontend?  
-Database? 
-Design verktøy?
+Database?   
+Design verktøy?  
