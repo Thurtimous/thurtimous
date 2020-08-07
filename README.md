@@ -3,7 +3,6 @@
 Backend?  
 Frontend?  
 Database?   
-Design 
-verktøy?  
-
+Design verktøy?    
+Hello world
   
