@@ -14,7 +14,7 @@ public class Receipt {
 
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
-    private Long id;
+    private long id;
 
     @Column(length = 500)
     private String link_to_picture;

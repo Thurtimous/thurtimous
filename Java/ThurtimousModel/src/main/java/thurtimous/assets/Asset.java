@@ -13,7 +13,7 @@ import javax.persistence.*;
 public class Asset {
 
     @Id @GeneratedValue(strategy= GenerationType.IDENTITY)
-    private Long id;
+    private long id;
 
     @JsonIgnore
     @ManyToOne(fetch = FetchType.LAZY, optional = false)

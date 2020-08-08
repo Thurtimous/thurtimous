@@ -15,7 +15,7 @@ import java.time.temporal.Temporal;
 
 @Component
 @Slf4j
-public class Init {
+public class TestInit {
 
 
     @Autowired
