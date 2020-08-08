@@ -1,7 +1,6 @@
 package thurtimous.assets;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonView;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import thurtimous.user.User;

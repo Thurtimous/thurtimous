@@ -6,6 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import thurtimous.assets.Asset;
+import thurtimous.receipt.Receipt;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -37,6 +38,12 @@ public class User {
             orphanRemoval = true
     )
     private List<Asset> assets = new ArrayList<>();
+    @OneToMany(
+            mappedBy = "owner",
+            cascade = CascadeType.ALL,
+            orphanRemoval = true
+    )
+    private List<Receipt> receipts = new ArrayList<>();
 
 
 
