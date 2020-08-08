@@ -19,18 +19,56 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10621df0-b4a6-427b-9c80-4ff072fd15ce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Thurtimous/main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/ThurtimousRestApi/child.iml" beforeDir="false" />
+    <list default="true" id="10621df0-b4a6-427b-9c80-4ff072fd15ce" name="Default Changelist" comment="properties for database kobling">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/ThurtimousModel/ThurtimousModel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/ThurtimousModel/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/ThurtimousModel/src/main/java/thurtimous/assets/Asset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/ThurtimousModel/src/main/java/thurtimous/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/ThurtimousModel/src/main/java/thurtimous/user/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/ThurtimousModel/src/main/java/thurtimous/user/UserJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/ThurtimousModel/src/main/java/thurtimous/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/ThurtimousRestApi/src/main/java/thurtimous/UserApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/ThurtimousRestApi/src/main/java/thurtimous/init/Init.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/Thurtimous/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Thurtimous/Thurtimous.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/Thurtimous/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Thurtimous/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/ThurtimousRestApi/child.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/ThurtimousRestApi/ThurtimousRestApi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/ThurtimousRestApi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/ThurtimousRestApi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/ThurtimousRestApi/src/main/java/thurtimous/RestApiStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/ThurtimousRestApi/src/main/java/thurtimous/RestApiStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/ThurtimousRestApi/src/main/java/thurtimous/TestApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/ThurtimousRestApi/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Java/ThurtimousRestApi/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Thurtimous/thurtimous.git" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1fn7rWW7DLuwdSiLad1w3uW7ZAM" />
   <component name="ProjectViewState">
@@ -38,17 +76,91 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Java/ThurtimousModel" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\erlingnikolai\Desktop\thurtimous\Java\ThurtimousRestApi\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\erlingnikolai\Desktop\thurtimous\Java\ThurtimousModel" />
+      <recent name="C:\Users\erlingnikolai\Desktop\thurtimous\Java\ThurtimousRestApi\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="thurtimous.user" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="thurtimous.user" />
+      <recent name="thurtimous" />
+    </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ThurtimousRestApi" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ThurtimousRestApi" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RestApiStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="child" />
+      <module name="ThurtimousRestApi" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="thurtimous.*" />
@@ -63,11 +175,14 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.RestApiStart" />
+        <item itemvalue="Spring Boot.RestApiStart" />
+        <item itemvalue="Spring Boot.RestApiStart" />
+        <item itemvalue="Spring Boot.RestApiStart" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\erlingnikolai\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -77,7 +192,17 @@
       <option name="presentableId" value="Default" />
       <updated>1596842201499</updated>
       <workItem from="1596842204303" duration="304000" />
+      <workItem from="1596842684570" duration="2404000" />
+      <workItem from="1596845101031" duration="17118000" />
     </task>
+    <task id="LOCAL-00001" summary="properties for database kobling">
+      <created>1596899550457</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596899550457</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,15 +218,140 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="properties for database kobling" />
+    <option name="LAST_COMMIT_MESSAGE" value="properties for database kobling" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="865" y="266" key="CommitChangelistDialog2" timestamp="1596842473540">
+    <state x="1165" y="563" key="#Notifications" timestamp="1596844823302">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="865" y="266" key="CommitChangelistDialog2/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596842473540" />
-    <state x="760" y="274" key="SettingsEditor" timestamp="1596842402705">
+    <state x="1165" y="563" key="#Notifications/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596844823302" />
+    <state x="872" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596901706449">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="760" y="274" key="SettingsEditor/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596842402705" />
+    <state x="872" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596901706449" />
+    <state x="1085" y="416" key="#com.intellij.ide.util.MemberChooser" timestamp="1596912486567">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1085" y="416" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596912486567" />
+    <state x="910" y="389" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1596900054239">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="910" y="389" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596900054239" />
+    <state x="1063" y="594" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596899381538">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1063" y="594" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596899381538" />
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596908700000">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596908700000" />
+    <state x="865" y="266" width="1383" height="831" key="CommitChangelistDialog2" timestamp="1596911201878">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="865" y="266" width="1383" height="831" key="CommitChangelistDialog2/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596911201878" />
+    <state x="1060" y="401" key="FileChooserDialogImpl" timestamp="1596844215312">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="401" key="FileChooserDialogImpl/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596844215312" />
+    <state width="2517" height="378" key="GridCell.Tab.0.bottom" timestamp="1596912709678">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="378" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596912709678" />
+    <state width="2517" height="378" key="GridCell.Tab.0.center" timestamp="1596912709678">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="378" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596912709678" />
+    <state width="2517" height="378" key="GridCell.Tab.0.left" timestamp="1596912709678">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="378" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596912709678" />
+    <state width="2517" height="378" key="GridCell.Tab.0.right" timestamp="1596912709678">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="378" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596912709678" />
+    <state width="2517" height="378" key="GridCell.Tab.1.bottom" timestamp="1596912709679">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="378" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596912709679" />
+    <state width="2517" height="378" key="GridCell.Tab.1.center" timestamp="1596912709679">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="378" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596912709679" />
+    <state width="2517" height="378" key="GridCell.Tab.1.left" timestamp="1596912709679">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="378" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596912709679" />
+    <state width="2517" height="378" key="GridCell.Tab.1.right" timestamp="1596912709679">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="378" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596912709679" />
+    <state x="999" y="402" key="RollbackChangesDialog" timestamp="1596845560391">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="999" y="402" key="RollbackChangesDialog/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596845560391" />
+    <state x="760" y="274" key="SettingsEditor" timestamp="1596900504184">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="760" y="274" key="SettingsEditor/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596900504184" />
+    <state x="982" y="537" key="SpringBootCustomization" timestamp="1596899893467">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="982" y="537" key="SpringBootCustomization/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596899893467" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1596899553437">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596899553437" />
+    <state x="1150" y="549" width="316" height="302" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1596907912752">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1150" y="549" width="316" height="302" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596907912752" />
+    <state x="1123" y="473" width="802" height="454" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1596904799838">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1123" y="473" width="802" height="454" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596904799838" />
+    <state x="796" y="293" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596900829703">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="796" y="293" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596900829703" />
+    <state x="1010" y="450" key="extract.method.dialog" timestamp="1596912621580">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="450" key="extract.method.dialog/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596912621580" />
+    <state x="1085" y="561" key="git4idea.rebase.GitRebaseDialog" timestamp="1596845400311">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1085" y="561" key="git4idea.rebase.GitRebaseDialog/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596845400311" />
+    <state x="1077" y="594" key="git4idea.ui.GitResetDialog" timestamp="1596845343293">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1077" y="594" key="git4idea.ui.GitResetDialog/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596845343293" />
+    <state x="1077" y="544" key="git4idea.ui.GitTagDialog" timestamp="1596844903763">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1077" y="544" key="git4idea.ui.GitTagDialog/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596844903763" />
+    <state x="1040" y="489" key="git4idea.ui.GitUnstashDialog" timestamp="1596845352890">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1040" y="489" key="git4idea.ui.GitUnstashDialog/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596845352890" />
+    <state x="662" y="320" key="new project wizard" timestamp="1596900088850">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="662" y="320" key="new project wizard/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596900088850" />
+    <state x="936" y="330" key="run.anything.popup" timestamp="1596907119023">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="936" y="330" key="run.anything.popup/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596907119023" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1596912730748">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596912730748" />
+    <state x="920" y="382" key="spring file set editor" timestamp="1596899885212">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="920" y="382" key="spring file set editor/0.0.2560.1400/-1920.337.1536.824/2560.324.1920.1040@0.0.2560.1400" timestamp="1596899885212" />
   </component>
 </project>

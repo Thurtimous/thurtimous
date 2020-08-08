@@ -2,16 +2,19 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="child" />
+        <module name="ThurtimousModel" />
+        <module name="ThurtimousRestApi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="child" target="11" />
-      <module name="main" target="11" />
+      <module name="Thurtimous" target="11" />
+      <module name="ThurtimousModel" target="11" />
+      <module name="ThurtimousRestApi" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
