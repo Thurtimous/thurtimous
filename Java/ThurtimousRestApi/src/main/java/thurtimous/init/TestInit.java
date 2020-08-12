@@ -3,10 +3,10 @@ package thurtimous.init;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import thurtimous.assets.Asset;
-import thurtimous.receipt.Receipt;
-import thurtimous.user.User;
-import thurtimous.user.UserRepository;
+import thurtimous.entity.Asset;
+import thurtimous.entity.Receipt;
+import thurtimous.entity.User;
+import thurtimous.repository.UserRepository;
 
 import javax.annotation.PostConstruct;
 import java.time.Duration;
