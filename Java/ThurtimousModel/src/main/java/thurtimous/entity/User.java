@@ -1,12 +1,10 @@
-package thurtimous.user;
+package thurtimous.entity;
 
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
-import thurtimous.assets.Asset;
-import thurtimous.receipt.Receipt;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -14,15 +12,12 @@ import java.util.List;
 
 import static org.apache.commons.lang3.StringUtils.capitalize;
 
+@EqualsAndHashCode(callSuper = true)
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-public class User {
-
-    @Id @GeneratedValue(strategy= GenerationType.IDENTITY)
-    long id;
-
+public class User extends ThurtimousEntity {
 
     @Column(length = 32)
     private String firstName;
@@ -45,7 +40,7 @@ public class User {
         this.lastName = capitalize(lastName);
     }
 
-    public User(String firstName, String LastName){
+    public User(String firstName, String LastName) {
         this(firstName, null, LastName);
     }
 
@@ -53,7 +48,7 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "id=" + id +
+                "id=" + super.getId() +
                 ", firstName='" + firstName + '\'' +
                 ", middleName='" + middleName + '\'' +
                 ", lastName='" + lastName + '\'' +
