@@ -9,36 +9,19 @@ import thurtimous.entity.User;
 import thurtimous.repository.UserRepository;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Controller
 @Slf4j
 @Transactional
-public class UserController extends ThurtimousController<User, UserDto> {
+public class UserController extends ThurtimousController<User, UserDto, UserRepository> {
 
     @Autowired
     UserRepository userRepository;
 
-
-    private List<User> getAll() {
-        return userRepository.findAll();
-    }
-
-    public List<UserDto> findAll() {
-        return getAll().stream().map(this::convertToDto).collect(Collectors.toList());
-    }
-
-
-    public void saveDto(UserDto dto) {
-        User entity = convertToEntity(dto);
-        userRepository.save(entity);
-    }
-
     @Override
-    public void saveDto(List<UserDto> dto) {
-
+    protected UserRepository getRepo() {
+        return userRepository;
     }
-
 
     @Override
     protected Class<User> getEntityClass() {

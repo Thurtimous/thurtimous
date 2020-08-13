@@ -15,11 +15,14 @@ public class RestApiStart {
         SpringApplication.run(RestApiStart.class, args);
     }
 
-
+    /**
+     * IKKE FJERN SUPER IMPORTANT TRO MEG
+     * @return
+     */
     @Bean
     public ModelMapper modelMapper() {
         ModelMapper modelMapper = new ModelMapper();
-      //  modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
+        modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
         return modelMapper;
     }
 }

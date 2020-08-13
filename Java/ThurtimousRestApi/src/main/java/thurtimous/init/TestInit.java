@@ -12,6 +12,7 @@ import javax.annotation.PostConstruct;
 import java.time.Duration;
 import java.time.Instant;
 import java.time.temporal.Temporal;
+import java.util.Arrays;
 
 @Component
 @Slf4j
@@ -23,28 +24,35 @@ public class TestInit {
 
     @PostConstruct
     public final void init() {
-        log.info("vi kommer hit??");
-        Instant before = Instant.now();
-       // userRepository.findAll();
-        User kjetil = new User("kjetil", "svergja");
-        kjetil.getAssets().add(new Asset("hytte", kjetil));
-        kjetil.getReceipts().add(new Receipt("https://upload.wikimedia.org/wikipedia/commons/0/0b/ReceiptSwiss.jpg", "https://www.google.com/url?sa=i&url=https%3A%2F%2Fsimple.wikipedia.org%2Fwiki%2FReceipt&psig=AOvVaw048nkbqE--jRt35LeKt78-&ust=1597005777164000&source=images&cd=vfe&ved=0CAMQjB1qFwoTCOCDpKK8jOsCFQAAAAAdAAAAABAD", kjetil));
-        userRepository.save(kjetil);
-        User erling = new User("erling", "nikolai", "ukkelberg");
-        erling.getReceipts().add(new Receipt("https://www.wordtemplatesonline.net/wp-content/uploads/Taxi-Receipt-02.jpg", "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wordtemplatesonline.net%2Ftaxi-receipt-templates%2F&psig=AOvVaw1YTjwWSX-Clk2DIysDN1FY&ust=1597005864319000&source=images&cd=vfe&ved=0CAMQjB1qFwoTCLi2zsy8jOsCFQAAAAAdAAAAABAD", erling));
-        userRepository.save(erling);
-  //      List<User> asd = userRepository.findAll();
-      //  asd.forEach(System.out::println);
-     //   asd.forEach(s -> System.out.println(s.getName()));
-        log.info(getLogMessage(before));
+        userRepository.save(getUser("erling", "hytte", "mansion", "mansion2", "superBåt"));
+        userRepository.save(getUser("kjetil", "hytte", "hus", "dog"));
+        userRepository.save(getUser("tim", "båt"));
+        userRepository.save(getUser("jon"));
+        userRepository.save(getUser("ben", "hest"));
+        userRepository.save(getUser("dan", "hest"));
+        userRepository.save(getUser("chong", "hest"));
+        userRepository.save(getUser("tai", "hest"));
+        userRepository.save(getUser("leo", "hest"));
+        userRepository.save(getUser("eli", "hest"));
+        userRepository.save(getUser("ian", "hest"));
+        userRepository.save(getUser("kai", "hest"));
+        userRepository.save(getUser("max", "hest"));
+        userRepository.save(getUser("jax", "hest"));
+        userRepository.save(getUser("Ali", "hest"));
+        userRepository.save(getUser("Jay", "hest"));
+        userRepository.save(getUser("Roy", "hest"));
+        userRepository.save(getUser("joe", "hest"));
+
+
+
+
     }
 
-
-
-
-    private String getLogMessage(final Temporal before) {
-        String seconds = Duration.between(before, Instant.now()).toSeconds() + " seconds";
-        return getClass().getSimpleName() + " took " + seconds;
+    private User getUser(String name, String... assets) {
+        User user = new User(name, name + "othan", name + "os");
+        Arrays.asList(assets).forEach(asset -> user.getAssets().add(new Asset("hytte", user)));
+        user.getReceipts().add(new Receipt("https://www.wordtemplatesonline.net/wp-content/uploads/Taxi-Receipt-02.jpg", "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wordtemplatesonline.net%2Ftaxi-receipt-templates%2F&psig=AOvVaw1YTjwWSX-Clk2DIysDN1FY&ust=1597005864319000&source=images&cd=vfe&ved=0CAMQjB1qFwoTCLi2zsy8jOsCFQAAAAAdAAAAABAD", user));
+        return user;
     }
 
 
