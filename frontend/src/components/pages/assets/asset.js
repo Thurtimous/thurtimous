@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import TableUsers from '../../helpers/table';
-import RequestUser from '../../../services/backend/userRequests';
     
 
 
@@ -11,10 +10,11 @@ import RequestUser from '../../../services/backend/userRequests';
         return (
 
             
-            <div className="container">
+            <div className="container bodyTag">
+                
                 <TableUsers/>
                 
-                {/*<button onClick={RequestUser.deleteUserById()} className="btn btn-danger">DANGER, RIP ERLINGOS</button>*/}
+                
             </div>
         )
 

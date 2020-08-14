@@ -8,5 +8,10 @@ class UserRequests{
     deleteUserById(id){
         return axios.delete(BACKEND_API_URL + "/user/delete/" + id);
     }
+    editUserById(user){
+        console.log(user);
+        return axios.put(BACKEND_API_URL + "/user/update/" + user.id, user, {headers: {'Content-Type': 'application/json'}})
+    }
+         
 }
 export default new UserRequests()

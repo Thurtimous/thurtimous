@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import Editable from 'react-x-editable';
+import ReactDataGrid from 'react-data-grid';
+import 'react-data-grid/dist/react-data-grid.css';
 import RequestUser from '../../services/backend/userRequests';
-const Table = ({ }) => {
+import { AutoSizer } from 'react-virtualized';
+
+const Table = () => {
 
     const [users, setUsers] = useState([]);
-
     function getUsers() {
         RequestUser.getAllUsers().then((response) => {
             console.log(response['data']);
@@ -12,89 +14,47 @@ const Table = ({ }) => {
             setUsers(response['data']);
         })
     }
+    useEffect(() => {
+        if (users.length === 0) {
+            getUsers()
+        }
+    });
 
-    function kappa(id) {
-        RequestUser.deleteUserById(id).then(() => {
-            getUsers();
-        });
+    // function kappa(id) {
+    //     RequestUser.deleteUserById(id).then(() => {
+    //         getUsers();
+    //     });
+    // }
 
+    const columns = [
+        { key: "id", name: "ID", editable: false },
+        { key: "firstName", name: "Firstname", editable: true },
+        { key: "middleName", name: "Middlename", editable: true },
+        { key: "lastName", name: "Lastname", editable: true }
+    ];
 
-    }
+    const rows = [users];
 
-    useEffect(() => { getUsers(); }, []);
     return (
-        <table className="table table-dark userTable">
-            <thead>
-                <tr>
-                    <th>Id</th>
-                    <th>firstName</th>
-                    <th>Middlename</th>
-                    <th>Lastname</th>
-                    <th>Delete my shit</th>
-                </tr>
-            </thead>
-            <tbody>
-                {(users.length > 0) ? users.map((user, index) => {
-                    return (
-                        <tr key={index}>
-                            <td>
-                                <Editable
-                                    value={user.id}
-                                    name="id"
-                                    dataType="text"
-                                    showButtons={false}
-                                    validate={(value) => {
-                                        if (!value) {
-                                            return 'Required';
-                                        }
-                                    }}
-                                />
-                            </td>
-                            <td>
-                                <Editable
-                                    value={user.firstName}
-                                    name="firstname"
-                                    dataType="text"
-                                    showButtons={false}
-                                    validate={(value) => {
-                                        if (!value) {
-                                            return 'Required';
-                                        }
-                                    }}
-                                />
-                            </td>
-                            <td>
-                                <Editable
-                                    value={user.middleName}
-                                    name="middlename"
-                                    dataType="text"
-                                    showButtons={false}
-
-                                />
-                            </td>
-                            <td>
-                                <Editable
-                                    value={user.lastName}
-                                    name="lastname"
-                                    dataType="text"
-                                    showButtons={false}
-                                    validate={(value) => {
-                                        if (!value) {
-                                            return 'Required';
-                                        }
-                                    }}
-                                />
-                            </td>
-                            <td>
-                                <button type="submit" onClick={() => { kappa(user.id) }} className="btn btn-danger">DANGER, RIP ERLINGOS</button>
-                            </td>
-                        </tr>
-                    )
-                }) : <tr><td colSpan="5">Characters will show up here WOHO</td></tr>}
-            </tbody>
-        </table>
-
+        <div id="superTable">
+            <AutoSizer>
+        {({ height, width }) => (
+        <ReactDataGrid
+          rowKey="id"
+          columns={columns}
+          rows={users}
+          height={height}
+          width={width}
+          defaultColumnOptions={{
+            sortable: true,
+            resizable: true
+          }}
+        />
+        )}
+        </AutoSizer>
+        </div>
     );
     
 }
+
 export default Table;
